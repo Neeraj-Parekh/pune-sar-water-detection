@@ -1,0 +1,202 @@
+{
+  "summary": {
+    "mean_iou": 0.07663957835226079,
+    "n_chips": 27
+  },
+  "per_type": {
+    "coastal_mangroves": 0.012744346201153738,
+    "backwaters": 0.032862730342869385,
+    "high_elevation": 0.16514308886742715
+  },
+  "per_chip": [
+    {
+      "iou": 0.0002669959794729948,
+      "precision": 0.30188682675361633,
+      "recall": 0.00026716093998402357,
+      "chip": "chip_094_coastal_mangroves_7band_jrc_f32",
+      "type": "coastal_mangroves"
+    },
+    {
+      "iou": 0.001965436851605773,
+      "precision": 0.7710583209991455,
+      "recall": 0.001966584473848343,
+      "chip": "chip_095_coastal_mangroves_7band_jrc_f32",
+      "type": "coastal_mangroves"
+    },
+    {
+      "iou": 0.02716885320842266,
+      "precision": 1.0,
+      "recall": 0.02716885320842266,
+      "chip": "chip_096_coastal_mangroves_7band_jrc_f32",
+      "type": "coastal_mangroves"
+    },
+    {
+      "iou": 0.00252074864692986,
+      "precision": 0.9516666531562805,
+      "recall": 0.002521071583032608,
+      "chip": "chip_097_coastal_mangroves_7band_jrc_f32",
+      "type": "coastal_mangroves"
+    },
+    {
+      "iou": 0.0091117387637496,
+      "precision": 0.7953488230705261,
+      "recall": 0.009133151732385159,
+      "chip": "chip_098_coastal_mangroves_7band_jrc_f32",
+      "type": "coastal_mangroves"
+    },
+    {
+      "iou": 0.005640309303998947,
+      "precision": 0.5614973306655884,
+      "recall": 0.005665263626724482,
+      "chip": "chip_099_coastal_mangroves_7band_jrc_f32",
+      "type": "coastal_mangroves"
+    },
+    {
+      "iou": 0.04253634065389633,
+      "precision": 0.9838362336158752,
+      "recall": 0.04256608709692955,
+      "chip": "chip_100_coastal_mangroves_7band_jrc_f32",
+      "type": "coastal_mangroves"
+    },
+    {
+      "iou": 2.9591051831090454e-11,
+      "precision": 1.0,
+      "recall": 2.9591051831090454e-11,
+      "chip": "chip_101_backwaters_7band_jrc_f32",
+      "type": "backwaters"
+    },
+    {
+      "iou": 1.0900252055134896e-11,
+      "precision": 9.99999087980541e-07,
+      "recall": 1.0900370883693e-11,
+      "chip": "chip_102_backwaters_7band_jrc_f32",
+      "type": "backwaters"
+    },
+    {
+      "iou": 0.0003720999520737678,
+      "precision": 0.7407407164573669,
+      "recall": 0.00037214840995147824,
+      "chip": "chip_103_backwaters_7band_jrc_f32",
+      "type": "backwaters"
+    },
+    {
+      "iou": 0.18878884613513947,
+      "precision": 0.9537784457206726,
+      "recall": 0.19053202867507935,
+      "chip": "chip_104_backwaters_7band_jrc_f32",
+      "type": "backwaters"
+    },
+    {
+      "iou": 0.003554909024387598,
+      "precision": 0.8397683501243591,
+      "recall": 0.003557321848347783,
+      "chip": "chip_105_backwaters_7band_jrc_f32",
+      "type": "backwaters"
+    },
+    {
+      "iou": 0.0838012546300888,
+      "precision": 0.9994372725486755,
+      "recall": 0.08380521088838577,
+      "chip": "chip_106_backwaters_7band_jrc_f32",
+      "type": "backwaters"
+    },
+    {
+      "iou": 0.03622375428676605,
+      "precision": 1.0,
+      "recall": 0.03622375428676605,
+      "chip": "chip_107_backwaters_7band_jrc_f32",
+      "type": "backwaters"
+    },
+    {
+      "iou": 0.0012069904478266835,
+      "precision": 0.9863013625144958,
+      "recall": 0.0012070107040926814,
+      "chip": "chip_108_backwaters_7band_jrc_f32",
+      "type": "backwaters"
+    },
+    {
+      "iou": 0.00305284489877522,
+      "precision": 0.9948586225509644,
+      "recall": 0.0030528930947184563,
+      "chip": "chip_109_backwaters_7band_jrc_f32",
+      "type": "backwaters"
+    },
+    {
+      "iou": 0.01162660401314497,
+      "precision": 0.7861952781677246,
+      "recall": 0.011663482524454594,
+      "chip": "chip_110_backwaters_7band_jrc_f32",
+      "type": "backwaters"
+    },
+    {
+      "iou": 1.5301364328479394e-05,
+      "precision": 0.014150948263704777,
+      "recall": 1.5317693396355025e-05,
+      "chip": "chip_111_high_elevation_7band_jrc_f32",
+      "type": "high_elevation"
+    },
+    {
+      "iou": 7.607392035424709e-05,
+      "precision": 0.06474820524454117,
+      "recall": 7.615760114276782e-05,
+      "chip": "chip_112_high_elevation_7band_jrc_f32",
+      "type": "high_elevation"
+    },
+    {
+      "iou": 2.7777778299764577e-08,
+      "precision": 1.0,
+      "recall": 2.7777778299764577e-08,
+      "chip": "chip_113_high_elevation_7band_jrc_f32",
+      "type": "high_elevation"
+    },
+    {
+      "iou": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "chip": "chip_114_high_elevation_7band_jrc_f32",
+      "type": "high_elevation"
+    },
+    {
+      "iou": 0.020202022045850754,
+      "precision": 1.0,
+      "recall": 0.020202022045850754,
+      "chip": "chip_115_high_elevation_7band_jrc_f32",
+      "type": "high_elevation"
+    },
+    {
+      "iou": 9.999998695775503e-08,
+      "precision": 9.999998695775503e-08,
+      "recall": 1.0,
+      "chip": "chip_116_high_elevation_7band_jrc_f32",
+      "type": "high_elevation"
+    },
+    {
+      "iou": 0.0009679264621809125,
+      "precision": 0.7457627058029175,
+      "recall": 0.0009682459058240056,
+      "chip": "chip_117_high_elevation_7band_jrc_f32",
+      "type": "high_elevation"
+    },
+    {
+      "iou": 4.545454146409611e-08,
+      "precision": 4.545454146409611e-08,
+      "recall": 1.0,
+      "chip": "chip_118_high_elevation_7band_jrc_f32",
+      "type": "high_elevation"
+    },
+    {
+      "iou": 0.6301693916320801,
+      "precision": 0.9786890149116516,
+      "recall": 0.6389368772506714,
+      "chip": "chip_119_high_elevation_7band_jrc_f32",
+      "type": "high_elevation"
+    },
+    {
+      "iou": 1.7170329394411432e-11,
+      "precision": 9.99999087980541e-07,
+      "recall": 1.7170624297402348e-11,
+      "chip": "chip_120_high_elevation_7band_jrc_f32",
+      "type": "high_elevation"
+    }
+  ]
+}

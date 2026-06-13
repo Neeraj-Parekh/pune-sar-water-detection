@@ -1,0 +1,1100 @@
+{
+  "summary": {
+    "mean_iou": 0.03652708742821524,
+    "std_iou": 0.08830156346061076,
+    "n_chips": 99
+  },
+  "per_region": {
+    "ahmedabad_sabarmati": {
+      "mean_iou": 0.0010685836409553777,
+      "n_chips": 1
+    },
+    "assam_flood_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "assam_flood_2": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "bangalore_lakes_1": {
+      "mean_iou": 0.02583543948321866,
+      "n_chips": 1
+    },
+    "bangalore_lakes_2": {
+      "mean_iou": 0.04889975550082397,
+      "n_chips": 1
+    },
+    "bhakra_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "bhakra_2": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "bhimtal": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "bhitarkanika_1": {
+      "mean_iou": 0.04640986541135954,
+      "n_chips": 1
+    },
+    "bhitarkanika_2": {
+      "mean_iou": 0.009559740028488965,
+      "n_chips": 1
+    },
+    "bihar_flood_1": {
+      "mean_iou": 0.011352503889814052,
+      "n_chips": 1
+    },
+    "bihar_flood_2": {
+      "mean_iou": 0.002751646448350566,
+      "n_chips": 1
+    },
+    "brahmaputra_guwahati_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "brahmaputra_guwahati_2": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "brahmaputra_majuli_1": {
+      "mean_iou": 0.0093729981231516,
+      "n_chips": 1
+    },
+    "brahmaputra_majuli_2": {
+      "mean_iou": 0.0009385970615004168,
+      "n_chips": 1
+    },
+    "cauvery_srirangapatna": {
+      "mean_iou": 0.046177428626129356,
+      "n_chips": 1
+    },
+    "chambal_1": {
+      "mean_iou": 0.07843137254731086,
+      "n_chips": 1
+    },
+    "chambal_2": {
+      "mean_iou": 0.2026431717972404,
+      "n_chips": 1
+    },
+    "chennai_adyar": {
+      "mean_iou": 0.0017331544918840545,
+      "n_chips": 1
+    },
+    "chennai_cooum": {
+      "mean_iou": 0.007775821596242706,
+      "n_chips": 1
+    },
+    "chilika_coast": {
+      "mean_iou": 0.0015931697951346393,
+      "n_chips": 1
+    },
+    "chilika_wetland_1": {
+      "mean_iou": 0.0005455017089843542,
+      "n_chips": 1
+    },
+    "chilika_wetland_2": {
+      "mean_iou": 8.773803710937165e-05,
+      "n_chips": 1
+    },
+    "coringa": {
+      "mean_iou": 0.018853027729258356,
+      "n_chips": 1
+    },
+    "dal_lake_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "dal_lake_2": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "deccan_tank_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "deccan_tank_2": {
+      "mean_iou": 0.39274924470903577,
+      "n_chips": 1
+    },
+    "deepor_beel": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "delhi_yamuna_1": {
+      "mean_iou": 0.16724420937412504,
+      "n_chips": 1
+    },
+    "delhi_yamuna_2": {
+      "mean_iou": 0.012145643693104774,
+      "n_chips": 1
+    },
+    "east_kolkata_wetlands": {
+      "mean_iou": 0.004492153316608775,
+      "n_chips": 1
+    },
+    "gandak_flood": {
+      "mean_iou": 0.004628057947719252,
+      "n_chips": 1
+    },
+    "ganga_patna": {
+      "mean_iou": 0.22448517764149245,
+      "n_chips": 1
+    },
+    "ganga_varanasi_1": {
+      "mean_iou": 0.013467728273756254,
+      "n_chips": 1
+    },
+    "ganga_varanasi_2": {
+      "mean_iou": 0.043795620437833256,
+      "n_chips": 1
+    },
+    "goa_mandovi": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "goa_zuari": {
+      "mean_iou": 0.010088356157882292,
+      "n_chips": 1
+    },
+    "godavari_rajahmundry": {
+      "mean_iou": 0.006040508388909375,
+      "n_chips": 1
+    },
+    "gujarat_gulf_khambhat": {
+      "mean_iou": 0.001711557517340626,
+      "n_chips": 1
+    },
+    "gujarat_gulf_kutch": {
+      "mean_iou": 0.012367248535155778,
+      "n_chips": 1
+    },
+    "harike_1": {
+      "mean_iou": 0.035411034535264285,
+      "n_chips": 1
+    },
+    "harike_2": {
+      "mean_iou": 0.008320039807401812,
+      "n_chips": 1
+    },
+    "hirakud_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "hirakud_2": {
+      "mean_iou": 0.0022280126813597656,
+      "n_chips": 1
+    },
+    "hyderabad_hussain_sagar": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "hyderabad_osmansagar": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "jaipur_mansagar": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "keoladeo_1": {
+      "mean_iou": 0.09142943214334918,
+      "n_chips": 1
+    },
+    "keoladeo_2": {
+      "mean_iou": 0.141172659539915,
+      "n_chips": 1
+    },
+    "kerala_alleppey": {
+      "mean_iou": 0.006972329707234525,
+      "n_chips": 1
+    },
+    "kerala_ashtamudi": {
+      "mean_iou": 0.0005322108522630628,
+      "n_chips": 1
+    },
+    "kerala_kuttanad": {
+      "mean_iou": 0.1802123647909296,
+      "n_chips": 1
+    },
+    "kerala_vembanad_1": {
+      "mean_iou": 0.4583934150443228,
+      "n_chips": 1
+    },
+    "kerala_vembanad_2": {
+      "mean_iou": 0.008370910204033084,
+      "n_chips": 1
+    },
+    "kolkata_hooghly_1": {
+      "mean_iou": 0.005481857198594327,
+      "n_chips": 1
+    },
+    "kolkata_hooghly_2": {
+      "mean_iou": 0.304361567634942,
+      "n_chips": 1
+    },
+    "kolleru_1": {
+      "mean_iou": 0.0005116991034331724,
+      "n_chips": 1
+    },
+    "kolleru_2": {
+      "mean_iou": 0.0005005142646565151,
+      "n_chips": 1
+    },
+    "kosi_flood_1": {
+      "mean_iou": 0.000499242528577245,
+      "n_chips": 1
+    },
+    "kosi_flood_2": {
+      "mean_iou": 0.008358662613979412,
+      "n_chips": 1
+    },
+    "krishna_raja_sagar": {
+      "mean_iou": 0.0003771573812158917,
+      "n_chips": 1
+    },
+    "krishna_vijayawada": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "loktak_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "loktak_2": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "mahanadi_cuttack": {
+      "mean_iou": 0.002997869934519815,
+      "n_chips": 1
+    },
+    "mumbai_harbor": {
+      "mean_iou": 0.008302188633448336,
+      "n_chips": 1
+    },
+    "mumbai_thane_creek": {
+      "mean_iou": 0.0030211480362523934,
+      "n_chips": 1
+    },
+    "nagarjuna_sagar_1": {
+      "mean_iou": 2.8616560976166488e-05,
+      "n_chips": 1
+    },
+    "nagarjuna_sagar_2": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "nainital": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "nalsarovar": {
+      "mean_iou": 7.953614520118351e-05,
+      "n_chips": 1
+    },
+    "narmada_bharuch": {
+      "mean_iou": 0.003027909426013193,
+      "n_chips": 1
+    },
+    "pangong_tso_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "pangong_tso_2": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "pench": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "pichavaram": {
+      "mean_iou": 0.007962012566549,
+      "n_chips": 1
+    },
+    "point_calimere": {
+      "mean_iou": 0.027721076037029287,
+      "n_chips": 1
+    },
+    "pulicat_lake": {
+      "mean_iou": 0.0023188873644848507,
+      "n_chips": 1
+    },
+    "pune_mula_mutha": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "rann_kutch_1": {
+      "mean_iou": 0.008863819500331476,
+      "n_chips": 1
+    },
+    "rann_kutch_2": {
+      "mean_iou": 0.0005569458007812287,
+      "n_chips": 1
+    },
+    "rann_kutch_3": {
+      "mean_iou": 0.0005715832857013356,
+      "n_chips": 1
+    },
+    "sambhar_lake_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "sambhar_lake_2": {
+      "mean_iou": 0.0006239962355636298,
+      "n_chips": 1
+    },
+    "stanley_reservoir": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "sundarbans_1": {
+      "mean_iou": 0.3031020408162441,
+      "n_chips": 1
+    },
+    "sundarbans_2": {
+      "mean_iou": 0.246547613692536,
+      "n_chips": 1
+    },
+    "sundarbans_3": {
+      "mean_iou": 0.3061509030186096,
+      "n_chips": 1
+    },
+    "thar_seasonal_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "thar_seasonal_2": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "tso_moriri": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "tungabhadra": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "ujjani": {
+      "mean_iou": 0.03215789473682518,
+      "n_chips": 1
+    },
+    "vembanad_kol": {
+      "mean_iou": 4.335968156649669e-05,
+      "n_chips": 1
+    },
+    "west_bengal_flood": {
+      "mean_iou": 0.0017261219792832256,
+      "n_chips": 1
+    },
+    "wular_lake_1": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    },
+    "wular_lake_2": {
+      "mean_iou": 0.0,
+      "n_chips": 1
+    }
+  },
+  "per_chip": [
+    {
+      "iou": 0.008302188633448336,
+      "precision": 0.9338159255380879,
+      "recall": 0.008307076654170405,
+      "chip": "chip_001_mumbai_harbor_with_truth",
+      "region": "mumbai_harbor"
+    },
+    {
+      "iou": 0.0030211480362523934,
+      "precision": 0.04536082474195629,
+      "recall": 0.0032262795131235145,
+      "chip": "chip_002_mumbai_thane_creek_with_truth",
+      "region": "mumbai_thane_creek"
+    },
+    {
+      "iou": 0.16724420937412504,
+      "precision": 0.91699999999083,
+      "recall": 0.16981481481450034,
+      "chip": "chip_003_delhi_yamuna_1_with_truth",
+      "region": "delhi_yamuna_1"
+    },
+    {
+      "iou": 0.012145643693104774,
+      "precision": 0.9032882011430698,
+      "recall": 0.012161458333330167,
+      "chip": "chip_004_delhi_yamuna_2_with_truth",
+      "region": "delhi_yamuna_2"
+    },
+    {
+      "iou": 0.02583543948321866,
+      "precision": 0.7359999999411201,
+      "recall": 0.02607709750559502,
+      "chip": "chip_005_bangalore_lakes_1_with_truth",
+      "region": "bangalore_lakes_1"
+    },
+    {
+      "iou": 0.04889975550082397,
+      "precision": 0.5555555555041153,
+      "recall": 0.05089058524129864,
+      "chip": "chip_006_bangalore_lakes_2_with_truth",
+      "region": "bangalore_lakes_2"
+    },
+    {
+      "iou": 0.0017331544918840545,
+      "precision": 0.8646616540703261,
+      "recall": 0.0017336247832966409,
+      "chip": "chip_007_chennai_adyar_with_truth",
+      "region": "chennai_adyar"
+    },
+    {
+      "iou": 0.007775821596242706,
+      "precision": 0.9380530973243794,
+      "recall": 0.007779816513760041,
+      "chip": "chip_008_chennai_cooum_with_truth",
+      "region": "chennai_cooum"
+    },
+    {
+      "iou": 0.005481857198594327,
+      "precision": 0.9999999999644128,
+      "recall": 0.005481857198594327,
+      "chip": "chip_009_kolkata_hooghly_1_with_truth",
+      "region": "kolkata_hooghly_1"
+    },
+    {
+      "iou": 0.304361567634942,
+      "precision": 0.5509153318046287,
+      "recall": 0.4047919293803918,
+      "chip": "chip_010_kolkata_hooghly_2_with_truth",
+      "region": "kolkata_hooghly_2"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_011_hyderabad_hussain_sagar_with_truth",
+      "region": "hyderabad_hussain_sagar"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_012_hyderabad_osmansagar_with_truth",
+      "region": "hyderabad_osmansagar"
+    },
+    {
+      "iou": 0.0010685836409553777,
+      "precision": 0.4230769229955621,
+      "recall": 0.0010701430100199093,
+      "chip": "chip_013_ahmedabad_sabarmati_with_truth",
+      "region": "ahmedabad_sabarmati"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_014_pune_mula_mutha_with_truth",
+      "region": "pune_mula_mutha"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_015_jaipur_mansagar_with_truth",
+      "region": "jaipur_mansagar"
+    },
+    {
+      "iou": 0.4583934150443228,
+      "precision": 0.9998689469884019,
+      "recall": 0.45842095775988156,
+      "chip": "chip_016_kerala_vembanad_1_with_truth",
+      "region": "kerala_vembanad_1"
+    },
+    {
+      "iou": 0.008370910204033084,
+      "precision": 0.7817482132997156,
+      "recall": 0.008390519067483587,
+      "chip": "chip_017_kerala_vembanad_2_with_truth",
+      "region": "kerala_vembanad_2"
+    },
+    {
+      "iou": 0.006972329707234525,
+      "precision": 0.9084423305480566,
+      "recall": 0.0069772326687908585,
+      "chip": "chip_018_kerala_alleppey_with_truth",
+      "region": "kerala_alleppey"
+    },
+    {
+      "iou": 0.1802123647909296,
+      "precision": 0.8806983511111509,
+      "recall": 0.18472179839265107,
+      "chip": "chip_019_kerala_kuttanad_with_truth",
+      "region": "kerala_kuttanad"
+    },
+    {
+      "iou": 0.0005322108522630628,
+      "precision": 0.8249999998968751,
+      "recall": 0.0005322709420388774,
+      "chip": "chip_020_kerala_ashtamudi_with_truth",
+      "region": "kerala_ashtamudi"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_021_goa_mandovi_with_truth",
+      "region": "goa_mandovi"
+    },
+    {
+      "iou": 0.010088356157882292,
+      "precision": 0.9981220657183276,
+      "recall": 0.010088547647744542,
+      "chip": "chip_022_goa_zuari_with_truth",
+      "region": "goa_zuari"
+    },
+    {
+      "iou": 0.3031020408162441,
+      "precision": 0.9842714500300571,
+      "recall": 0.30457727223003817,
+      "chip": "chip_023_sundarbans_1_with_truth",
+      "region": "sundarbans_1"
+    },
+    {
+      "iou": 0.246547613692536,
+      "precision": 0.9938349954660073,
+      "recall": 0.24692526017023766,
+      "chip": "chip_024_sundarbans_2_with_truth",
+      "region": "sundarbans_2"
+    },
+    {
+      "iou": 0.3061509030186096,
+      "precision": 0.9854921198194494,
+      "recall": 0.3075369682755822,
+      "chip": "chip_025_sundarbans_3_with_truth",
+      "region": "sundarbans_3"
+    },
+    {
+      "iou": 0.04640986541135954,
+      "precision": 0.7179487179413544,
+      "recall": 0.04727174500266932,
+      "chip": "chip_026_bhitarkanika_1_with_truth",
+      "region": "bhitarkanika_1"
+    },
+    {
+      "iou": 0.009559740028488965,
+      "precision": 0.9862227324800663,
+      "recall": 0.009561016873691113,
+      "chip": "chip_027_bhitarkanika_2_with_truth",
+      "region": "bhitarkanika_2"
+    },
+    {
+      "iou": 0.0023188873644848507,
+      "precision": 0.9577777777564939,
+      "recall": 0.0023191244363611634,
+      "chip": "chip_028_pulicat_lake_with_truth",
+      "region": "pulicat_lake"
+    },
+    {
+      "iou": 0.0015931697951346393,
+      "precision": 0.9848484848236149,
+      "recall": 0.001593208845168631,
+      "chip": "chip_029_chilika_coast_with_truth",
+      "region": "chilika_coast"
+    },
+    {
+      "iou": 0.007962012566549,
+      "precision": 0.6503428011689486,
+      "recall": 0.007996242729318995,
+      "chip": "chip_030_pichavaram_with_truth",
+      "region": "pichavaram"
+    },
+    {
+      "iou": 0.018853027729258356,
+      "precision": 0.6930518909349777,
+      "recall": 0.019011773788839267,
+      "chip": "chip_031_coringa_with_truth",
+      "region": "coringa"
+    },
+    {
+      "iou": 0.001711557517340626,
+      "precision": 0.6643356643124358,
+      "recall": 0.0017130389310635527,
+      "chip": "chip_032_gujarat_gulf_khambhat_with_truth",
+      "region": "gujarat_gulf_khambhat"
+    },
+    {
+      "iou": 0.012367248535155778,
+      "precision": 0.9999999999969155,
+      "recall": 0.012367248535155778,
+      "chip": "chip_033_gujarat_gulf_kutch_with_truth",
+      "region": "gujarat_gulf_kutch"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_034_pangong_tso_1_with_truth",
+      "region": "pangong_tso_1"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_035_pangong_tso_2_with_truth",
+      "region": "pangong_tso_2"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_036_tso_moriri_with_truth",
+      "region": "tso_moriri"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_037_dal_lake_1_with_truth",
+      "region": "dal_lake_1"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_038_dal_lake_2_with_truth",
+      "region": "dal_lake_2"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_039_wular_lake_1_with_truth",
+      "region": "wular_lake_1"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_040_wular_lake_2_with_truth",
+      "region": "wular_lake_2"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_041_nainital_with_truth",
+      "region": "nainital"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_042_bhimtal_with_truth",
+      "region": "bhimtal"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_043_loktak_1_with_truth",
+      "region": "loktak_1"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_044_loktak_2_with_truth",
+      "region": "loktak_2"
+    },
+    {
+      "iou": 0.013467728273756254,
+      "precision": 0.9860465116126195,
+      "recall": 0.013470295456949388,
+      "chip": "chip_045_ganga_varanasi_1_with_truth",
+      "region": "ganga_varanasi_1"
+    },
+    {
+      "iou": 0.043795620437833256,
+      "precision": 0.49840255589461974,
+      "recall": 0.04581497797343373,
+      "chip": "chip_046_ganga_varanasi_2_with_truth",
+      "region": "ganga_varanasi_2"
+    },
+    {
+      "iou": 0.22448517764149245,
+      "precision": 0.9358490565949449,
+      "recall": 0.22799356469724663,
+      "chip": "chip_047_ganga_patna_with_truth",
+      "region": "ganga_patna"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_048_brahmaputra_guwahati_1_with_truth",
+      "region": "brahmaputra_guwahati_1"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_049_brahmaputra_guwahati_2_with_truth",
+      "region": "brahmaputra_guwahati_2"
+    },
+    {
+      "iou": 0.0093729981231516,
+      "precision": 0.9663962919934369,
+      "recall": 0.009376053962899452,
+      "chip": "chip_050_brahmaputra_majuli_1_with_truth",
+      "region": "brahmaputra_majuli_1"
+    },
+    {
+      "iou": 0.0009385970615004168,
+      "precision": 0.5833333333186027,
+      "recall": 0.0009392267439732568,
+      "chip": "chip_051_brahmaputra_majuli_2_with_truth",
+      "region": "brahmaputra_majuli_2"
+    },
+    {
+      "iou": 0.006040508388909375,
+      "precision": 0.9280303030127267,
+      "recall": 0.0060433393766719645,
+      "chip": "chip_052_godavari_rajahmundry_with_truth",
+      "region": "godavari_rajahmundry"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_053_krishna_vijayawada_with_truth",
+      "region": "krishna_vijayawada"
+    },
+    {
+      "iou": 0.003027909426013193,
+      "precision": 0.9839572191987188,
+      "recall": 0.0030280589154936186,
+      "chip": "chip_054_narmada_bharuch_with_truth",
+      "region": "narmada_bharuch"
+    },
+    {
+      "iou": 0.002997869934519815,
+      "precision": 0.9999999999561403,
+      "recall": 0.002997869934519815,
+      "chip": "chip_055_mahanadi_cuttack_with_truth",
+      "region": "mahanadi_cuttack"
+    },
+    {
+      "iou": 0.046177428626129356,
+      "precision": 0.7761674718071471,
+      "recall": 0.046800660258232055,
+      "chip": "chip_056_cauvery_srirangapatna_with_truth",
+      "region": "cauvery_srirangapatna"
+    },
+    {
+      "iou": 0.07843137254731086,
+      "precision": 0.08510638297671143,
+      "recall": 0.4999999999305556,
+      "chip": "chip_057_chambal_1_with_truth",
+      "region": "chambal_1"
+    },
+    {
+      "iou": 0.2026431717972404,
+      "precision": 0.39316239312878953,
+      "recall": 0.29487179485289283,
+      "chip": "chip_058_chambal_2_with_truth",
+      "region": "chambal_2"
+    },
+    {
+      "iou": 2.8616560976166488e-05,
+      "precision": 0.021929824560441673,
+      "recall": 2.8653130927614817e-05,
+      "chip": "chip_059_nagarjuna_sagar_1_with_truth",
+      "region": "nagarjuna_sagar_1"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_060_nagarjuna_sagar_2_with_truth",
+      "region": "nagarjuna_sagar_2"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_061_hirakud_1_with_truth",
+      "region": "hirakud_1"
+    },
+    {
+      "iou": 0.0022280126813597656,
+      "precision": 0.9999999999828767,
+      "recall": 0.0022280126813597656,
+      "chip": "chip_062_hirakud_2_with_truth",
+      "region": "hirakud_2"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_063_bhakra_1_with_truth",
+      "region": "bhakra_1"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_064_bhakra_2_with_truth",
+      "region": "bhakra_2"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_065_tungabhadra_with_truth",
+      "region": "tungabhadra"
+    },
+    {
+      "iou": 0.0003771573812158917,
+      "precision": 0.9387755100124948,
+      "recall": 0.00037716665846736057,
+      "chip": "chip_066_krishna_raja_sagar_with_truth",
+      "region": "krishna_raja_sagar"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_067_stanley_reservoir_with_truth",
+      "region": "stanley_reservoir"
+    },
+    {
+      "iou": 0.03215789473682518,
+      "precision": 0.8557422969067823,
+      "recall": 0.03233317457795823,
+      "chip": "chip_068_ujjani_with_truth",
+      "region": "ujjani"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_069_pench_with_truth",
+      "region": "pench"
+    },
+    {
+      "iou": 0.09142943214334918,
+      "precision": 0.9950819672076772,
+      "recall": 0.09147076552135248,
+      "chip": "chip_070_keoladeo_1_with_truth",
+      "region": "keoladeo_1"
+    },
+    {
+      "iou": 0.141172659539915,
+      "precision": 0.9945230488316088,
+      "recall": 0.14128250016200397,
+      "chip": "chip_071_keoladeo_2_with_truth",
+      "region": "keoladeo_2"
+    },
+    {
+      "iou": 0.0005116991034331724,
+      "precision": 0.8863636362964875,
+      "recall": 0.000511732674349924,
+      "chip": "chip_072_kolleru_1_with_truth",
+      "region": "kolleru_1"
+    },
+    {
+      "iou": 0.0005005142646565151,
+      "precision": 0.8348623852445081,
+      "recall": 0.0005005638218872631,
+      "chip": "chip_073_kolleru_2_with_truth",
+      "region": "kolleru_2"
+    },
+    {
+      "iou": 0.035411034535264285,
+      "precision": 0.9299999999907,
+      "recall": 0.035505669453657275,
+      "chip": "chip_074_harike_1_with_truth",
+      "region": "harike_1"
+    },
+    {
+      "iou": 0.008320039807401812,
+      "precision": 0.9852686308406824,
+      "recall": 0.008321074933584478,
+      "chip": "chip_075_harike_2_with_truth",
+      "region": "harike_2"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_076_deepor_beel_with_truth",
+      "region": "deepor_beel"
+    },
+    {
+      "iou": 0.004492153316608775,
+      "precision": 0.7549019607695117,
+      "recall": 0.004498714652955773,
+      "chip": "chip_077_east_kolkata_wetlands_with_truth",
+      "region": "east_kolkata_wetlands"
+    },
+    {
+      "iou": 0.027721076037029287,
+      "precision": 0.9999999999934255,
+      "recall": 0.027721076037029287,
+      "chip": "chip_078_point_calimere_with_truth",
+      "region": "point_calimere"
+    },
+    {
+      "iou": 0.0005455017089843542,
+      "precision": 0.9999999999300698,
+      "recall": 0.0005455017089843542,
+      "chip": "chip_079_chilika_wetland_1_with_truth",
+      "region": "chilika_wetland_1"
+    },
+    {
+      "iou": 8.773803710937165e-05,
+      "precision": 0.9999999995652173,
+      "recall": 8.773803710937165e-05,
+      "chip": "chip_080_chilika_wetland_2_with_truth",
+      "region": "chilika_wetland_2"
+    },
+    {
+      "iou": 4.335968156649669e-05,
+      "precision": 0.02531645569556161,
+      "recall": 4.3432184986360404e-05,
+      "chip": "chip_081_vembanad_kol_with_truth",
+      "region": "vembanad_kol"
+    },
+    {
+      "iou": 0.008863819500331476,
+      "precision": 0.04680851063630602,
+      "recall": 0.010816125860267294,
+      "chip": "chip_082_rann_kutch_1_with_truth",
+      "region": "rann_kutch_1"
+    },
+    {
+      "iou": 0.0005569458007812287,
+      "precision": 0.9999999999315068,
+      "recall": 0.0005569458007812287,
+      "chip": "chip_083_rann_kutch_2_with_truth",
+      "region": "rann_kutch_2"
+    },
+    {
+      "iou": 0.0005715832857013356,
+      "precision": 0.19063545149864095,
+      "recall": 0.0005729737336777302,
+      "chip": "chip_084_rann_kutch_3_with_truth",
+      "region": "rann_kutch_3"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_085_sambhar_lake_1_with_truth",
+      "region": "sambhar_lake_1"
+    },
+    {
+      "iou": 0.0006239962355636298,
+      "precision": 0.3407821228859898,
+      "recall": 0.0006247503559028028,
+      "chip": "chip_086_sambhar_lake_2_with_truth",
+      "region": "sambhar_lake_2"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_087_thar_seasonal_1_with_truth",
+      "region": "thar_seasonal_1"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_088_thar_seasonal_2_with_truth",
+      "region": "thar_seasonal_2"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_089_deccan_tank_1_with_truth",
+      "region": "deccan_tank_1"
+    },
+    {
+      "iou": 0.39274924470903577,
+      "precision": 0.5241935483800512,
+      "recall": 0.6103286384881013,
+      "chip": "chip_090_deccan_tank_2_with_truth",
+      "region": "deccan_tank_2"
+    },
+    {
+      "iou": 7.953614520118351e-05,
+      "precision": 0.9999999995,
+      "recall": 7.953614520118351e-05,
+      "chip": "chip_091_nalsarovar_with_truth",
+      "region": "nalsarovar"
+    },
+    {
+      "iou": 0.000499242528577245,
+      "precision": 0.3052631578626039,
+      "recall": 0.0004998104167383924,
+      "chip": "chip_092_kosi_flood_1_with_truth",
+      "region": "kosi_flood_1"
+    },
+    {
+      "iou": 0.008358662613979412,
+      "precision": 0.5766990291150156,
+      "recall": 0.00841026221894761,
+      "chip": "chip_093_kosi_flood_2_with_truth",
+      "region": "kosi_flood_2"
+    },
+    {
+      "iou": 0.004628057947719252,
+      "precision": 0.99999999998503,
+      "recall": 0.004628057947719252,
+      "chip": "chip_094_gandak_flood_with_truth",
+      "region": "gandak_flood"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_095_assam_flood_1_with_truth",
+      "region": "assam_flood_1"
+    },
+    {
+      "iou": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "chip": "chip_096_assam_flood_2_with_truth",
+      "region": "assam_flood_2"
+    },
+    {
+      "iou": 0.011352503889814052,
+      "precision": 0.7547892720161917,
+      "recall": 0.011394528312796751,
+      "chip": "chip_097_bihar_flood_1_with_truth",
+      "region": "bihar_flood_1"
+    },
+    {
+      "iou": 0.002751646448350566,
+      "precision": 0.9999999999746193,
+      "recall": 0.002751646448350566,
+      "chip": "chip_098_bihar_flood_2_with_truth",
+      "region": "bihar_flood_2"
+    },
+    {
+      "iou": 0.0017261219792832256,
+      "precision": 0.03124999999891493,
+      "recall": 0.0018237082066832346,
+      "chip": "chip_099_west_bengal_flood_with_truth",
+      "region": "west_bengal_flood"
+    }
+  ]
+}

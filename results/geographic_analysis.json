@@ -1,0 +1,59 @@
+{
+  "regional_analysis": [
+    {
+      "region": "Central (Deccan/Plains)",
+      "n_chips": 7,
+      "terrain_iou": 0.010829111232142573,
+      "sar_only_iou": 0.6884647987656545,
+      "improvement": 63.575374193422114,
+      "physics": "Geomorphological twins to training domain"
+    },
+    {
+      "region": "East (Deltas/Estuaries)",
+      "n_chips": 16,
+      "terrain_iou": 0.09152641667228108,
+      "sar_only_iou": 0.401409867094908,
+      "improvement": 4.385726893823383,
+      "physics": "Tidal mudflats, mangrove double-bounce, gradient wetlands"
+    },
+    {
+      "region": "South (Coastal/Backwaters)",
+      "n_chips": 8,
+      "terrain_iou": 0.08300419579605954,
+      "sar_only_iou": 0.37130407030179635,
+      "improvement": 4.473316881643991,
+      "physics": "Wide flat open water, specular reflection similar to training"
+    },
+    {
+      "region": "West (Reservoirs/Rivers)",
+      "n_chips": 10,
+      "terrain_iou": 0.028635908301290036,
+      "sar_only_iou": 0.32347620305072755,
+      "improvement": 11.296174008077651,
+      "physics": "Large engineered water bodies with clear boundaries"
+    },
+    {
+      "region": "Other",
+      "n_chips": 49,
+      "terrain_iou": 0.022970664502661983,
+      "sar_only_iou": 0.3007402004538167,
+      "improvement": 13.092359623247516,
+      "physics": "Mixed"
+    },
+    {
+      "region": "North (Himalaya/Kashmir)",
+      "n_chips": 9,
+      "terrain_iou": 0.0,
+      "sar_only_iou": 0.205278938374051,
+      "improvement": 0,
+      "physics": "Extreme elevation, freeze/thaw dynamics, glacial melt"
+    }
+  ],
+  "summary": {
+    "total_chips": 99,
+    "overall_terrain_iou": 0.03652708742821524,
+    "overall_sar_iou": 0.3437453164182145,
+    "best_region": "Central (Deccan/Plains)",
+    "worst_region": "North (Himalaya/Kashmir)"
+  }
+}

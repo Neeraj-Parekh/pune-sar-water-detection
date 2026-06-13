@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SAR Water Detection with Terrain-Aware Multi-Channel U-Net"
+version: v3.0
+date-released: "2026-06-12"
+authors:
+  - family-names: "Parekh"
+    given-names: "Neeraj"
+license: MIT
+repository-code: "https://github.com/Neeraj-Parekh/pune-sar-water-detection"
+type: software
+keywords:
+  - SAR
+  - water detection
+  - Sentinel-1
+  - deep learning
+  - U-Net
+  - terrain features
+  - domain transfer
