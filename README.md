@@ -1,96 +1,73 @@
 # SAR Water Detection: Terrain Feature Transferability Analysis
 
-Code and data for the paper:
+Code and data for:
 
 > **Terrain Features Are Associated with Impaired Spatial Transferability of SAR-Based Water Detection: A Cross-Regional Analysis of Nine Hydrological Water Body Types Across India**
 >
-> Neeraj Parekh and Ashish B. Itolikar
-> *Evolving Earth*, 2026
+> Parekh & Itolikar, *Evolving Earth*, 2026
 > DOI: [10.5281/zenodo.19436533](https://doi.org/10.5281/zenodo.19436533)
 
 ## Repository Structure
 
 ```
-├── src/                          # Source code
-│   ├── model_v4_simple.py        # 6-channel U-Net architecture
-│   ├── dataset.py                # Data loading utilities
-│   ├── config.py                 # Training configuration
-│   ├── train_pune_unet6ch_cpu_v4_robust.py  # Training script
-│   ├── inference.py              # Inference script
-│   └── colab_analysis/           # Colab-compatible analysis scripts
-│       ├── shap_analysis.py      # Integrated Gradients attribution
-│       ├── ablation_overlay.py   # Pixel-level ablation overlay
-│       └── elsevier_config.py    # Figure formatting (Okabe-Ito, Arial)
-├── model/                        # Trained model weights
-│   └── cpu_v4_best.pth           # Best checkpoint (31.4M params, epoch 27)
-├── results/                      # Evaluation JSONs
-│   ├── allIndia_results.json     # Full 468-patch evaluation
-│   ├── allIndia_SARonly.json     # SAR-only (terrain zeroed)
-│   ├── allIndia_curvature.json   # Curvature-stratified analysis
-│   ├── geographic_analysis.json  # Regional breakdown (99 patches)
-│   └── benchmark_comparison.json # Comparison with literature
-├── figures/                      # Paper figures (PNG)
-├── chips_sample/                 # Sample chips (download from Google Drive)
-├── reproducibility/              # Reproducibility scripts
-├── CITATION.cff                  # How to cite
-├── requirements.txt              # Python dependencies
-└── LICENSE                       # MIT License
+├── src/colab_analysis/         # Core scripts
+│   ├── model_v4_simple.py      # 6-channel U-Net architecture
+│   ├── dataset.py              # Data loading
+│   ├── config.py               # Training config
+│   ├── shap_analysis.py        # Integrated Gradients attribution (Section 4.3.1)
+│   └── ablation_overlay.py     # Pixel-level ablation overlay (Section 4.2.1)
+├── model/
+│   └── cpu_v4_best.pth         # Trained weights (31.4M params, epoch 27)
+├── results/                    # Evaluation JSONs
+│   ├── allIndia_results.json   # 468-patch transfer evaluation
+│   ├── allIndia_SARonly.json   # SAR-only (terrain zeroed)
+│   ├── allIndia_curvature.json # Curvature-stratified analysis
+│   └── geographic_analysis.json # 99-patch regional breakdown
+├── figures/                    # 16 paper figures (PNG)
+├── CITATION.cff
+├── requirements.txt
+└── LICENSE (MIT)
 ```
 
 ## Quick Start
-
-### 1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run Inference
-
+### Run Integrated Gradients Attribution
 ```bash
-python src/inference.py \
+python src/colab_analysis/shap_analysis.py \
     --model model/cpu_v4_best.pth \
-    --input <path_to_sar_6band.tif> \
-    --output <output_dir>
+    --data <path_to_patches> \
+    --output results/
 ```
 
-### 3. Reproduce Key Results
-
+### Run Ablation Overlay
 ```bash
-# Evaluate on all-India test set
-python src/evaluate.py --model model/cpu_v4_best.pth --data data/
-
-# Run curvature analysis
-python src/curvature_analysis.py --results results/
-
-# Run Integrated Gradients attribution
-python src/colab_analysis/shap_analysis.py --model model/cpu_v4_best.pth --data data/
+python src/colab_analysis/ablation_overlay.py \
+    --model model/cpu_v4_best.pth \
+    --data <path_to_patches> \
+    --output results/
 ```
 
-## Model Architecture
+## Model
 
-- **Architecture:** 6-channel U-Net with attention gates at dec3/dec4
-- **Input channels:** VV, VH, DEM, Slope, HAND, TWI
-- **Output:** Binary water mask
-- **Parameters:** 31.4M
+- **Architecture:** U-Net with attention gates (dec3/dec4)
+- **Input:** VV, VH, DEM, Slope, HAND, TWI (6 channels)
 - **Training:** BoundaryLoss + DiceLoss + FocalLoss, AdamW (lr=5e-5), 52 epochs
+- **Best epoch:** 27 (val loss = 0.2329)
 
 ## Key Results
 
 | Metric | Value |
 |--------|-------|
 | Training IoU (Pune) | 0.896 |
-| Transfer IoU (macro, 9 regions) | 0.595 |
+| Transfer IoU (macro) | 0.595 |
 | SAR-only IoU | 0.344 |
-| Recovery with terrain removal | 9.3× |
-| Terrain curvature OR reversal | 6.3× |
+| Recovery (terrain removal) | 9.3× |
+| IG effect size (mean Cohen's d) | 5.19 |
 | Nine-type IoU range | 13.0× |
-
-## Data
-
-- **Training:** Pune Metropolitan Region (6,348 km²), 224 patches
-- **Testing:** 468 patches across 5 independently curated datasets covering India
-- **Sample chips:** Download from [Google Drive](https://drive.google.com/drive/folders/YOUR_FOLDER_ID)
 
 ## Citation
 
@@ -103,7 +80,3 @@ python src/colab_analysis/shap_analysis.py --model model/cpu_v4_best.pth --data 
   doi={10.5281/zenodo.19436533}
 }
 ```
-
-## License
-
-MIT License
