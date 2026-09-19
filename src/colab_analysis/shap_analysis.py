@@ -9,7 +9,7 @@ For every false positive pixel, computes attribution for the DEM channel
 to determine if DEM is actively contributing to errors.
 
 Usage:
-    python shap_analysis.py [--model cpu_v4_best.pth] [--n-chips 10] [--n-steps 20]
+    python shap_analysis.py [--model pune_unet6ch_weights.pth] [--n-chips 10] [--n-steps 20]
 """
 
 import os
@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 
 sys.path.insert(0, str(Path(__file__).parent))
 from config import Config, NORM_STATS
-from model_v4_simple import UNet6Ch
+from unet6ch_model import UNet6Ch
 from dataset import safe_normalize
 
 
@@ -135,7 +135,7 @@ def compute_predictions(model, tensor, device):
 
 def main():
     parser = argparse.ArgumentParser(description='Gradient Attribution Analysis')
-    parser.add_argument('--model', type=str, default=str(RESULTS_DIR / 'cpu_v4_best.pth'))
+    parser.add_argument('--model', type=str, default=str(RESULTS_DIR.parent.parent / 'model' / 'pune_unet6ch_weights.pth'))
     parser.add_argument('--n-chips', type=int, default=10)
     parser.add_argument('--n-steps', type=int, default=20)
     parser.add_argument('--chip-dir', type=str, default=None, help='Chip directory override')

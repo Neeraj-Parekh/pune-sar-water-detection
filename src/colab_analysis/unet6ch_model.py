@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
-U-Net6Ch loader for cpu_v4_best.pth.
-6-channel input, attention gates at dec3/dec4, no DSConv.
+Six-channel U-Net used for Pune SAR water-body detection.
+
+Inputs are (VV, VH, DEM, Slope, HAND, TWI); attention gates are applied at
+decoder stages 3 and 4. This module defines the architecture of the released
+checkpoint (model/pune_unet6ch_weights.pth).
 """
 
 import torch
@@ -35,7 +38,7 @@ class AttentionGate(nn.Module):
 
 
 class UNet6Ch(nn.Module):
-    """6-channel U-Net with attention gates, matching cpu_v4_best.pth exactly."""
+    """Six-channel U-Net with attention gates, matching the released checkpoint."""
     def __init__(self, in_channels=6, base_filters=64):
         super().__init__()
         self.enc_block1 = nn.Sequential(ConvBlock(in_channels, base_filters), ConvBlock(base_filters, base_filters))

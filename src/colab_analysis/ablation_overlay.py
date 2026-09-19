@@ -8,7 +8,7 @@ maps overlaid with curvature classes.
 Shows: "DEM removal disproportionately fixes errors in high-curvature terrain."
 
 Usage:
-    python ablation_overlay.py [--model cpu_v4_best.pth] [--n-chips 20]
+    python ablation_overlay.py [--model pune_unet6ch_weights.pth] [--n-chips 20]
 """
 
 import os
@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent))
 from config import Config, NORM_STATS
-from model_v4_simple import UNet6Ch
+from unet6ch_model import UNet6Ch
 from dataset import compute_frangi_vesselness, safe_normalize
 
 
@@ -38,7 +38,7 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 
 def load_model(model_path, device):
-    """Load trained U-Net model (original 6-channel v4 architecture)."""
+    """Load the trained six-channel U-Net from a checkpoint."""
     model = UNet6Ch(in_channels=6, base_filters=64)
     checkpoint = torch.load(model_path, map_location=device, weights_only=True)
     if 'model_state_dict' in checkpoint:
@@ -163,7 +163,7 @@ def classify_errors(pred_binary, label_binary):
 
 def main():
     parser = argparse.ArgumentParser(description='Ablation Overlay Analysis')
-    parser.add_argument('--model', type=str, default=str(RESULTS_DIR / 'cpu_v4_best.pth'),
+    parser.add_argument('--model', type=str, default=str(RESULTS_DIR.parent.parent / 'model' / 'pune_unet6ch_weights.pth'),
                         help='Path to model checkpoint')
     parser.add_argument('--n-chips', type=int, default=20,
                         help='Number of chips to analyze')

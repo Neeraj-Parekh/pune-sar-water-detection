@@ -19,9 +19,9 @@
     "test_iou": null,
     "degradation": null
   },
-  "This Study (CPU V4)": {
+  "This study": {
     "train_iou": 0.8955,
-    "test_iou": 0.5241179424773683,
-    "degradation": 1.71
+    "test_iou": 0.595,
+    "degradation": 1.51
   }
 }

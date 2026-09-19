@@ -1,19 +1,27 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-title: "SAR Water Detection with Terrain-Aware Multi-Channel U-Net"
-version: v3.0
-date-released: "2026-06-12"
+message: "If you use this software or the accompanying results, please cite it as below."
+title: "Influence of Terrain Features on the Spatial Transferability of Sentinel-1 SAR Water Body Detection Across India: A Geomorphological Analysis"
 authors:
   - family-names: "Parekh"
     given-names: "Neeraj"
+    orcid: "https://orcid.org/0009-0002-4324-2889"
+    affiliation: "Department of Electronics and Telecommunication Engineering, MIT Academy of Engineering, Alandi, Pune, India"
+  - family-names: "Itolikar"
+    given-names: "Ashish B."
+    orcid: "https://orcid.org/0000-0003-3960-1973"
+    affiliation: "Department of Humanities and Engineering Sciences, MIT Academy of Engineering, Alandi, Pune, India"
+version: 1.0.0
+date-released: "2026-09-18"
 license: MIT
 repository-code: "https://github.com/Neeraj-Parekh/pune-sar-water-detection"
+doi: 10.5281/zenodo.22834407
 type: software
 keywords:
   - SAR
-  - water detection
   - Sentinel-1
+  - water body detection
   - deep learning
   - U-Net
   - terrain features
-  - domain transfer
+  - transferability
+  - India
